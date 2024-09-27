@@ -1,5 +1,5 @@
 [servers]
-mn1 ansible_host=192.168.56.142 ansible_become_pass="dikoalam1991" apache_package=apache2 php_package=libapache2-mod-php
+server1 ansible_host=192.168.56.151 apache_package=apache2 php_package=libapache2-mod-php
 
-[server_CENT]
-mn2 ansible_host=192.168.56.145 ansible_become_pass="qfmgayao" apache_package=httpd php_package=php
+[CENT]
+server3 ansible_host=192.168.56.153 apache_package=httpd php_package=php
