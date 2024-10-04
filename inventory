@@ -1,3 +1,4 @@
 [servers]
 server1 ansible_host=192.168.56.151 apache_package=apache2 php_package=libapache2-mod-php
 centos ansible_host=192.168.56.154 ansible_user=kiersanjose apache_package=httpd php_package=php
+test3 ansible_host=192.168.56.155 apache_package=apache2 php_package=libapache2-mod-php
